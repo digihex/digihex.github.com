@@ -19,9 +19,9 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
+	margin: 10;
+	padding: 10;
+	border:10;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -54,7 +54,7 @@ table {
 /* Center Content */
 
 .centered { 
-  margin:0 auto;
+  margin:10 auto;
   width:960px;
 }
 
@@ -77,5 +77,26 @@ html[xmlns] .clearfix { display: block; }
 
 header#site-header h1 { position:absolute; left:10px; top:10px; }
 header#site-header h1 a { display:block; width:200px; height:200px; background:url(images/logo.png) top center no-repeat; text-indent:-9999px; }
+
+
+/* end reset */
+
+h1{color:red;}
+article{background-color:blue;
+	
+	
+	float:left;
+	width:40%;
+	margin:20px;}
+
+img{float:left;
+	margin-right:10px;
+	width:25%;}
+	
+	body{margin:0 auto;
+		width:960px;}
+
+
+
 
 
