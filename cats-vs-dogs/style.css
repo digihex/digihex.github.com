@@ -72,5 +72,30 @@ table {
 .clearfix { display: inline-block; }
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
+/*end reset*/
+
+h1{color:black;
+	float:left;
+	position:relative;}
 
 
+article{background-color:blue;
+	
+	
+	float:left;
+	width:70%;
+	margin:20px;
+	position:relative;}
+	
+	
+	img{float:left;
+		margin-right:10px;
+		width:45%;
+			}
+		
+		body{margin:0 auto;
+			width:960px;}
+		
+		ul{float:left;}
+		
+		footer{float:left;}
