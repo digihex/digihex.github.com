@@ -74,23 +74,33 @@ html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 /*end reset*/
 
-h1{color:black;
-	float:left;
-	position:relative;}
+h1{font-weight:bold;
+	font-size:30px;
+	
+	}
+header{
+	position:relative;
+	height:300px;
+}
+nav{position:absolute;
+	top:200px;}
+li{float:left;
+	margin:0px 70px;}
+
+
 
 
 article{background-color:blue;
-	
-	
 	float:left;
-	width:70%;
+	width:40%;
 	margin:20px;
-	position:relative;}
+	}
 	
 	
-	img{float:left;
-		margin-right:10px;
-		width:45%;
+	header img{
+		position:absolute;
+		left:200px;
+		top:50px;
 			}
 		
 		body{margin:0 auto;
