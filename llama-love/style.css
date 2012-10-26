@@ -81,22 +81,33 @@ header#site-header h1 a { display:block; width:200px; height:200px; background:u
 
 /* end reset */
 
-h1{color:black;}
-h2{color:gray;}
+h1{color:black;
+	font-weight:bold;
+	font-size:15pt;
+	font-family:helvetica}
+h2{color:gray;
+	font-size:8pt;}
 article{background-color:white;
 	
 	
 	float:left;
 	width:40%;
-	margin:20px;}
+	margin:20px;
+	font-family:helvetica}
 
 img{float:left;
 	margin-right:10px;
-	width:35%;}
+	width:35%;
+	padding:20px;}
 	
 	body{margin:0 auto;
-		width:960px;}
-
+		width:960px;
+		font-family:helvetica}
+		
+		header{position:relative;
+			height:10px;}
+			
+			body{float:left;}
 
 
 
