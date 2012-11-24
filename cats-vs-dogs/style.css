@@ -87,18 +87,33 @@ html[xmlns] .clearfix { display: block; }
 
 h1{font-weight:bold;
 	font-size:25px;
-	float:left;
+	float:center;
 	font-family:georgia;
-	width:100%}
+	width:100%;
+	margin-bottom:5px;
+	margin-top:2px;
+	}
 
+
+h3{	font-weight:bold;
+		font-size:25px;
+		float:left;
+		font-family:georgia;
+		width:100%;
+		margin-bottom:5px;
+		margin-top:2px;
+	margin-top:4px;}
 
 h2{	font-weight:bold;
-		font-size:70px;
+		font-size:80pt;
 		float:left;
 		font-family: 'LeagueGothicRegular';
 		text-transform:uppercase;
 		margin:0 auto;
-		width:100%}
+		width:100%;
+		margin-bottom:5px;
+		text-align:center;
+		margin-top:80px;}
 
 
 
@@ -109,7 +124,11 @@ header{
 }
 
 #logohead{font-family:georgia;
-}
+border-top: 2px solid black;
+border-bottom: 4px solid black;
+margin-top:.5px;
+margin-bottom:40px;
+font-size:50pt;}
 
 
 
@@ -121,7 +140,10 @@ nav{position:absolute;
 	margin:0 auto;
 	width:100%;
 	text-transform:uppercase;
-	font-weight:bold;}
+	font-weight:bold;
+	margin-right:auto;
+	margin-left:auto;
+	text-align:center;}
 	
 	li{
 		text-decoration:none;
@@ -139,7 +161,8 @@ a{text-decoration:none;
 	color:black;
 	text-align:center;}
 
-img{padding:10px;}
+img{padding-bottom:5px;
+	padding-top:5px;}
 
 
 article{background-color:white;
@@ -163,4 +186,5 @@ article{background-color:white;
 		
 		footer{
 			float:left;
-		border-top: 2px solid black;}
+		border-top: 2px solid black;
+		width:100%;}
