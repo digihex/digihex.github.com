@@ -74,4 +74,61 @@ html[xmlns] .clearfix { display: block; }
 
 
 
-h1{font-size:10em;}
+h1{font-size:4em;
+	float:center;
+	color:white;
+	text-align:center;
+	margin-top:50px;
+	font-family:helvetica;
+	text-transform:uppercase;}
+
+header{
+	position:relative;
+	background-color:black;
+	float:left;
+	width:100%;
+	height:150px;
+	text-align:center;
+	}
+
+a{float:center;
+	text-align:center;
+	text-decoration:none;
+	color:white;
+	margin-top:50px}
+
+body{float:left;
+	width:100%;}
+
+ul{float:center;
+	position:center;
+	background-color:green;
+	font-size:1.5em;
+	font-family:helvetica;
+	text-transform:uppercase;}
+
+
+
+
+nav{position:absolute;
+	text-align:center;}
+
+li{color:white;
+	float:left;
+	text-decoration:none;
+	margin-top:50px;
+	text-align:center;}
+	
+	footer{
+	    padding-top:70px;
+		font-family:helvetica;
+		position:relative;
+		clear: both;
+		height:150px;
+		margin-top:700px;
+		float:left;
+		background-color:black;
+		color:white;
+		width:100%;
+		text-align:center;
+		font-size:2em;}
