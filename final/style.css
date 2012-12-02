@@ -80,7 +80,8 @@ h1{font-size:4em;
 	text-align:center;
 	margin-top:50px;
 	font-family:helvetica;
-	text-transform:uppercase;}
+	text-transform:uppercase;
+	}
 
 header{
 	position:relative;
@@ -105,19 +106,23 @@ ul{float:center;
 	background-color:green;
 	font-size:1.5em;
 	font-family:helvetica;
-	text-transform:uppercase;}
+	text-transform:uppercase;
+	color:white;
+	}
 
 
 
 
 nav{position:absolute;
-	text-align:center;}
+	text-align:center;
+	}
 
 li{color:white;
 	float:left;
 	text-decoration:none;
 	margin-top:50px;
-	text-align:center;}
+	text-align:center;
+	}
 	
 	footer{
 	    padding-top:70px;
@@ -131,4 +136,5 @@ li{color:white;
 		color:white;
 		width:100%;
 		text-align:center;
-		font-size:2em;}
+		font-size:2em;
+		}

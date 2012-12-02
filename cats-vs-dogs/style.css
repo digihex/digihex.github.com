@@ -110,13 +110,14 @@ h2{	font-weight:bold;
 		font-family: 'LeagueGothicRegular';
 		text-transform:uppercase;
 		margin:0 auto;
-		width:100%;
+     	float:left;
 		margin-bottom:5px;
 		text-align:center;
 		margin-top:80px;}
 
 
-
+#logowrapper{margin: 0 auto;
+	width:60%;}
 
 header{
 	position:relative;
@@ -126,12 +127,18 @@ header{
 #logohead{font-family:georgia;
 border-top: 2px solid black;
 border-bottom: 4px solid black;
-margin-top:.5px;
+margin-top:30px;
 margin-bottom:40px;
-font-size:50pt;}
+font-size:50pt;
+float:left;}
 
 
-
+#logohead div {
+	border-top: 2px solid red;
+	border-bottom: 4px solid red;
+	margin-top:.5px;
+	margin-bottom:40px;
+	}
 
 nav{position:absolute;
 	top:200px;
@@ -143,7 +150,9 @@ nav{position:absolute;
 	font-weight:bold;
 	margin-right:auto;
 	margin-left:auto;
-	text-align:center;}
+	text-align:center;
+	padding:10px 0;
+	}
 	
 	li{
 		text-decoration:none;
@@ -154,7 +163,7 @@ nav{position:absolute;
 		text-align:center;
 		  }
 ul{margin:0 auto;
-			width:100%;
+			width:90%;
 			}
 
 a{text-decoration:none;
@@ -181,10 +190,12 @@ article{background-color:white;
 		body{margin:0 auto;
 			width:960px;}
 		
-		ul{float:left;
-			text-decoration:none;}
+		
 		
 		footer{
 			float:left;
 		border-top: 2px solid black;
 		width:100%;}
+		
+		#footer2{float:right;
+		width:100%;	}
