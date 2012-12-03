@@ -62,7 +62,7 @@ table {
 
 
 body {
-	background-color: yellow;
+	
 	width: 100%;
 	}
 	
@@ -76,14 +76,14 @@ site-wrapper {
 	width: 100%;
 	position: relative;
 	height: 150px;
-	background-color: teal;
+	background-color:white;
 	}
 
 #site-header h1 {
 	position: absolute;
 	top: 20px;
 	left: 20px;
-	background-color: brown;
+	color:tan;
 	width: 356px;
 	}
 
@@ -99,21 +99,24 @@ site-wrapper {
 	position: absolute;
 	top: 20px;
 	right: 20px;
-	background-color: purple;
+	
+	color:tan;
 	}
 
 #main-menu {
-	background-color: orange;
+	background-color: tan;
 	height: 30px;
 	}
 
-#main-menu li {
+#main-menu li a{
 	float: left;
-	margin-left: 50px;
+	margin-top: 10px;
+	margin-left: 80px;
 	font-family:helvetica;
 	text-transform:uppercase;
 	font-size:10pt;
-	color:white;}
+	color:white;
+	}
 	
 #main-menu nav{text-decoration:none}
 
@@ -125,15 +128,17 @@ a{text-decoration:none;
 
 #page {
 	float: left;
-	background-color: green;
+	
 	width: 70%;
 	height:80%;}
 #page h1{font-size:3em;
 	margin-top:9px;
-	margin-left:18px;}
+	margin-left:18px;
+	color:tan;}
 
 #page h2{font-size:1.5em;
-	margin-left:18px;}
+	margin-left:18px;
+	color:tan;}
 
 #page p{font-family:helvetica;
 	font-size:10pt;
@@ -141,34 +146,53 @@ a{text-decoration:none;
 
 #sidebar {
 	float: left;
-	background-color:pink;
+	background-color:white;
 	width: 30%;
 	}
 #sidebar h1{font-size:1.5em;
 	font-family:helvetica;
 	color:brown}
 
-#sidebar li{font-size:1em;
+#sidebar li a{font-size:1em;
 		font-family:helvetica;
-		color:brown}
+		color:tan}
 
 
 
 #site-footer {
 	
 	clear: both;
-	background-color:brown;
+	background-color:tan;
 	height:150px;
 	margin-top:50px;
 	border-bottom:80%;}
-
+																						
 
 #footer-follow li
 {float:right}
 
+#footer-follow h1
+{	
+	color:white;
+	width:300px;	
+	font-weight:bold;
+	font-family:helvetica;
+	text-transform:uppercase;
+	margin-bottom:40px;
+	float:right;}
 
 
 
+#footer-contact{
+	color:white;
+width:300px;font-family:helvetica;
+float:center;}
+
+#footer-contact h1{font-weight:bold;
+font-family:helvetica;
+text-transform:uppercase;
+margin-bottom:15px;
+float:center;}
 
 
 
