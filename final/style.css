@@ -89,14 +89,14 @@ header{
 	float:left;
 	width:100%;
 	height:150px;
-	text-align:center;
+	
 	}
 
 a{float:center;
 	text-align:center;
 	text-decoration:none;
 	color:white;
-	margin-top:50px}
+	}
 
 body{float:left;
 	width:100%;}
@@ -118,10 +118,10 @@ nav{position:absolute;
 	}
 
 li{color:white;
-	float:left;
+	right:20px;
 	text-decoration:none;
-	margin-top:50px;
 	text-align:center;
+	
 	}
 	
 	footer{
