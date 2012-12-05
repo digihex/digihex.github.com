@@ -82,14 +82,18 @@ html[xmlns] .clearfix { display: block; }
 	margin-left:60px;}
 
 
-p{
+.text1{
 	margin-left:400px;
 	margin-top:100px;
+	padding-bottom:20px;
 	font-family:helvetica;}
 	
-	#text2{background-color:green;
-
-	}
+.text2{
+		line-height:20px;
+		width:300px;
+		padding-bottom:20px;
+		font-family:helvetica;
+		margin-left:400px;}
 
 header{
 	
@@ -99,20 +103,23 @@ header{
 	background-color:black;
 	margin:0 auto;
 	}
-
-a{margin:0 auto;
+#linkwrapper{	margin:0 auto;
+		width:60%;}
+a{
 	text-align:center;
 	text-decoration:none;
 	color:black;
+	font-size:1.5em;
+	font-family:messner-thin;
 	
-	font-family:messner-thin;}
+	width:60%;}
 
 body{float:left;
 	width:100%;
 	}
 
 ul{
-	position:center;
+	
 	
 	font-size:1.5em;
 	font-family:helvetica;

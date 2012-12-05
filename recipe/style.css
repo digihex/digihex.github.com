@@ -136,7 +136,7 @@ h3{float:left;
 h4{float:left;
 		font-size:1.5em;
 		font-family:helvetica;
-		margin-top:9px;
+		margin-top:15px;
 		width:100%;
 		font-style:italic;}
 
@@ -167,9 +167,17 @@ header{position:relative;
 		
 		
 		
-		p{float:left;
+		p{
+		padding-top:10px;
+		float:left;
 		font-family:helvetica;
-		margin-top:9px;}
+		margin-top:20px;}
 		
 		
-		footer{position:relative;}
+		footer{
+			padding-bottom:20px;
+			color:green;
+			text-decoration:none;
+			text-transform:uppercase;
+			position:relative;
+		}

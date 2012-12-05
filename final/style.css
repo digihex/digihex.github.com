@@ -123,8 +123,8 @@ ul{
 	
 	}
 
-section{	
-	}
+	#linkwrapper{	margin:0 auto;
+			width:60%;}
 a{margin-left:50px;}
 
 nav{position:absolute;
