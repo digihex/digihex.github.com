@@ -108,7 +108,7 @@ a{margin:0 auto;
 	text-align:center;
 	text-decoration:none;
 	color:black;
-	
+	font-size:1.5em;
 	font-family:messner-thin;}
 
 body{float:left;
@@ -117,11 +117,10 @@ body{float:left;
 
 ul{
 	position:center;
-	background-color:green;
+
 	font-size:1.5em;
-	font-family:helvetica;
-	text-transform:uppercase;
-	color:white;
+	
+	
 	}
 
 section{	
