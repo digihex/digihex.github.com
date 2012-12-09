@@ -3,65 +3,65 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>Desktop/Web Design/digihex.github.com/recipe/style.css</string>
+	<string>index.html</string>
 	<key>documents</key>
 	<array>
 		<dict>
 			<key>filename</key>
 			<string>index.html</string>
 			<key>lastUsed</key>
-			<date>2012-11-24T03:09:33Z</date>
+			<date>2012-12-07T02:37:18Z</date>
+			<key>selected</key>
+			<true/>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>style.css</string>
 			<key>lastUsed</key>
-			<date>2012-11-24T03:09:33Z</date>
-			<key>selected</key>
-			<true/>
+			<date>2012-12-07T02:37:18Z</date>
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
 	<integer>200</integer>
 	<key>metaData</key>
 	<dict>
-		<key>Desktop/Web Design/digihex.github.com/recipe/index.html</key>
+		<key>index.html</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>23</integer>
+				<integer>2</integer>
 				<key>line</key>
-				<integer>11</integer>
+				<integer>17</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>10</integer>
 		</dict>
-		<key>Desktop/Web Design/digihex.github.com/recipe/style.css</key>
+		<key>style.css</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>19</integer>
+				<integer>38</integer>
 				<key>line</key>
-				<integer>139</integer>
+				<integer>124</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>111</integer>
+			<integer>115</integer>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>Desktop/Web Design/digihex.github.com/recipe/index.html</string>
-		<string>Desktop/Web Design/digihex.github.com/recipe/style.css</string>
+		<string>index.html</string>
+		<string>style.css</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
-	<true/>
+	<false/>
 	<key>windowFrame</key>
-	<string>{{486, 105}, {916, 888}}</string>
+	<string>{{1020, 123}, {916, 888}}</string>
 </dict>
 </plist>
